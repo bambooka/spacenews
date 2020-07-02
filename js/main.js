@@ -11,7 +11,7 @@ let createPlanetCard = (planet) => {
   // planetDesc.className = 'planet_desc';
   planetName.className = 'planet_name';
 
-  planetImage.setAttribute('src', planet.img);
+  planetImage.setAttribute('src', `./img/${planet.img}`);
 
   planetName.innerHTML = planet.name;
   // planetDesc.innerHTML = planet.desc;
