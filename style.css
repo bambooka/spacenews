@@ -1,0 +1,68 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("https://storge.pic2.me/upload/285/58da5dc43b885.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+
+}
+.main_wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 150px auto 50px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+}
+
+.menu_panel {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+
+}
+
+.menu_panel li a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: green;*/
+}
+
+.quote {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    grid-auto-rows: 0.5fr;
+    border: 1px solid darkslateblue;
+    color: white;
+    background-color: rgba(44, 65, 89, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    padding: 20px;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+footer {
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
